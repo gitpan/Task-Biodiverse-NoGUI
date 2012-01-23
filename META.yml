@@ -1,0 +1,44 @@
+--- #YAML:1.0
+name:               Task-Biodiverse-NoGUI
+version:            0.16001
+abstract:           Task for Biodiverse dependencies for non-GUI use
+author:
+    - Shawn Laffan (shawn.laffan@unsw.edu.au)
+license:            unknown
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+build_requires:
+    ExtUtils::MakeMaker:  0
+requires:
+    Clone:                0
+    Data::DumpXML:        0
+    DBD::XBase:           0
+    Devel::Symdump:       0
+    Exception::Class:     0
+    Exporter::Easy:       0
+    File::BOM:            0
+    Geo::Converter::dms2dd:  0
+    HTML::QuickTable:     0
+    lib:                  0
+    Math::Polygon:        0
+    Math::Random::MT::Auto:  0
+    MRO::Compat:          0
+    mylib:                0
+    PadWalker:            0
+    parent:               0
+    Readonly:             0
+    Regexp::Common:       0
+    Statistics::Descriptive:  3.02
+    Text::CSV_XS:         0.60
+    Text::Wrapper:        0
+    URI::Escape::XS:      0
+    YAML::Syck:           0
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.57_05
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
