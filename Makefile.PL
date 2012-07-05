@@ -24,7 +24,7 @@ WriteMakefile(
         "parent" => "0",
         "Readonly" => "0",
         "URI::Escape::XS" => "0",
-        "Statistics::Descriptive" => "3.02",
+        "Statistics::Descriptive" => "3.04",
         "Geo::Converter::dms2dd" => "0",
         "Text::Wrapper" => "0",
         "Exporter::Easy" => "0",
@@ -33,5 +33,9 @@ WriteMakefile(
         "MRO::Compat" => "0",
         "File::BOM" => "0",
         "Math::Polygon" => "0",
+        "Path::Class" => "0",
+        "Tree::R" => "0",
+        "Geo::ShapeFile" => "0",
+        "List::MoreUtils" => "0",
     }
 );
