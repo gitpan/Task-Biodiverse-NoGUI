@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Task-Biodiverse-NoGUI
-version:            0.17
+version:            0.17001
 abstract:           Task for Biodiverse dependencies for non-GUI use
 author:
     - Shawn Laffan (shawn.laffan@unsw.edu.au)
@@ -24,7 +24,7 @@ requires:
     lib:                  0
     List::MoreUtils:      0
     Math::Polygon:        0
-    Math::Random::MT::Auto:  0
+    Math::Random::MT::Auto:  6.19
     MRO::Compat:          0
     mylib:                0
     PadWalker:            0
