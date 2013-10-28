@@ -1,48 +1,50 @@
---- #YAML:1.0
-name:               Task-Biodiverse-NoGUI
-version:            0.17001
-abstract:           Task for Biodiverse dependencies for non-GUI use
+---
+abstract: 'Task for Biodiverse dependencies for non-GUI use'
 author:
-    - Shawn Laffan (shawn.laffan@unsw.edu.au)
-license:            unknown
-distribution_type:  module
-configure_requires:
-    ExtUtils::MakeMaker:  0
+  - 'Shawn Laffan (shawn.laffan@unsw.edu.au)'
 build_requires:
-    ExtUtils::MakeMaker:  0
-requires:
-    Clone:                0
-    Data::DumpXML:        0
-    DBD::XBase:           0
-    Devel::Symdump:       0
-    Exception::Class:     0
-    Exporter::Easy:       0
-    File::BOM:            0
-    Geo::Converter::dms2dd:  0
-    Geo::ShapeFile:       0
-    HTML::QuickTable:     0
-    lib:                  0
-    List::MoreUtils:      0
-    Math::Polygon:        0
-    Math::Random::MT::Auto:  6.19
-    MRO::Compat:          0
-    mylib:                0
-    PadWalker:            0
-    parent:               0
-    Path::Class:          0
-    Readonly:             0
-    Regexp::Common:       0
-    Statistics::Descriptive:  3.04
-    Text::CSV_XS:         0.60
-    Text::Wrapper:        0
-    Tree::R:              0
-    URI::Escape::XS:      0
-    YAML::Syck:           0
-no_index:
-    directory:
-        - t
-        - inc
-generated_by:       ExtUtils::MakeMaker version 6.55_02
+  Data::Section::Simple: 0
+  Perl::Tidy: 0
+  Test::Deep: 0
+  Test::NoWarnings: 0
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.6302, CPAN::Meta::Converter version 2.120630'
+license: unknown
 meta-spec:
-    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
-    version:  1.4
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Task-Biodiverse-NoGUI
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  Class::Inspector: 0
+  Clone: 0.35
+  DBD::XBase: 0
+  Data::DumpXML: 0
+  Exception::Class: 0
+  Exporter::Easy: 0
+  File::BOM: 0
+  Geo::Converter::dms2dd: 0
+  Geo::ShapeFile: 0
+  HTML::QuickTable: 0
+  List::MoreUtils: 0
+  List::Util: 1.32
+  Math::Polygon: 0
+  Math::Random::MT::Auto: 6.21
+  Path::Class: 0
+  Readonly: 0
+  Regexp::Common: 0
+  Statistics::Descriptive: 3.06
+  Text::CSV_XS: 0.60
+  Text::Wrapper: 0
+  Tree::R: 0
+  URI::Escape::XS: 0
+  YAML::Syck: 0
+  autovivification: 0.11
+  parent: 0
+  rlib: 0
+version: 0.19
