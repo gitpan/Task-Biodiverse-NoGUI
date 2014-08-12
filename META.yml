@@ -4,6 +4,7 @@ author:
   - 'Shawn Laffan (shawn.laffan@unsw.edu.au)'
 build_requires:
   Data::Section::Simple: 0
+  Devel::Symdump: 0
   Perl::Tidy: 0
   Test::Deep: 0
   Test::Most: 0
@@ -33,15 +34,17 @@ requires:
   Geo::ShapeFile: 2.58
   Geo::Shapefile::Writer: 0
   HTML::QuickTable: 0
+  List::BinarySearch: 0
+  List::BinarySearch::XS: 0
   List::MoreUtils: 0
-  List::Util: 1.38
+  List::Util: 1.39
   Math::Polygon: 0
   Math::Random::MT::Auto: 6.21
   Path::Class: 0
   Readonly: 0
   Regexp::Common: 0
   Statistics::Descriptive: 3.06
-  Text::CSV_XS: 0.60
+  Text::CSV_XS: 1.04
   Text::Wrapper: 0
   Tree::R: 0
   URI::Escape::XS: 0
@@ -49,4 +52,4 @@ requires:
   autovivification: 0.11
   parent: 0
   rlib: 0
-version: 0.191
+version: 0.99002
